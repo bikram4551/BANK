@@ -51,9 +51,9 @@ function App() {
             <div className='top-img-list'>
               <ul>
                 <Link to={'Setting'}>
-                  <li><img src='top-setting.png' /></li>
+                  <li><img src='top-setting.png' alt='' /></li>
                 </Link>
-                <li><img src='notifaction.png' /></li>
+                <li><img src='notifaction.png' alt='' /></li>
                 <li><img src='girl-logo.png' /></li>
                 <li>
                   <Button onClick={toggleTheme} className="theme-toggle-btn">
