@@ -1,0 +1,1457 @@
+.toparea {
+    padding: 10px;
+    width: 100%;
+}
+
+.toparea-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toparea h3 {
+    margin-right: 80px;
+    padding: 20px;
+}
+
+.toparea h4 {
+    padding: 20px;
+    padding-left: 20px;
+}
+
+.searchicon {
+    background: url('../public/magnifyingGlass.png') no-repeat 10px center;
+    padding-left: 30px !important;
+}
+
+.top-serching {
+    padding: 20px;
+}
+
+.top-img-list {
+    padding: 20px;
+}
+
+
+.toparea ul li {
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+}
+
+
+
+.Dashboardarea {
+    background: #E5E5E5;
+
+}
+
+.tittle {
+    padding: 12px;
+}
+
+.seeall {
+    padding: 12px;
+    text-align: end;
+
+}
+
+.maincard {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.card-1 {
+    width: 100%;
+    background: linear-gradient(blue, blue);
+    border-radius: 30px;
+}
+
+/* .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.bal {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: white;
+
+
+}
+
+.rupya {
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.chip {
+    padding: 3px;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.holder {
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+}
+
+.eddy {
+    font-size: 14px;
+    margin-left: 30px;
+    color: white;
+}
+
+.valid {
+    margin-right: 90px;
+    margin-top: 30px;
+    color: white;
+}
+
+.no {
+    color: white;
+}
+
+.no1 {
+    color: black;
+}
+
+.row2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: left;
+}
+
+.number {
+    padding-bottom: 15px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #E5E5E5;
+    font-size: 20px;
+    border-bottom: 20px;
+}
+
+
+
+
+
+
+.card-2 {
+    width: 100%;
+    background: white;
+    border-radius: 30px;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bal-1 {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: black;
+
+
+}
+
+.rupya-1 {
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.chip-1 {
+    padding: 3px;
+}
+
+.row1-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.holder-1 {
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: black;
+}
+
+.eddy-1 {
+    font-size: 14px;
+    margin-left: 30px;
+    color: black;
+}
+
+.valid-1 {
+    margin-right: 90px;
+    margin-top: 30px;
+    color: black;
+}
+
+.no-1 {
+    color: black;
+}
+
+.row2-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: left;
+}
+
+.number-1 {
+    padding-bottom: 15px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: black;
+    font-size: 20px;
+    border-bottom: 20px;
+}
+
+.mainrt {
+    display: flex;
+    gap: 15px;
+}
+
+.rt {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.card-3 {
+    width: 100%;
+    background: white;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 28px;
+}
+
+.row1-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deposit-img {
+    margin-left: 10px;
+
+}
+
+.deposit-tittle {
+    margin-top: 10px;
+    margin-right: 25px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.rupess {
+    margin-right: 15px;
+    font-size: 15px;
+    color: red;
+}
+
+.row2-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paypal-img {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.paypal-tittle {
+    margin-top: 25px;
+    margin-right: 25px;
+
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.rupess-1 {
+    margin-right: 15px;
+    font-size: 15px;
+    color: green;
+}
+
+
+
+.row3-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jemi-img {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.jemi-tittle {
+    margin-top: 25px;
+    font-size: 12px;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.jemirupess-1 {
+    margin-right: 15px;
+    font-size: 15px;
+    color: green;
+}
+
+
+
+.trt {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.trt a {
+    text-decoration: none;
+    color: black;
+    margin-left: 600px;
+
+}
+
+.trtt {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.Transaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alltransaction {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.alltransaction a {
+    text-decoration: none;
+}
+
+.alltr {
+    text-decoration: none;
+}
+
+.alltr:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.income {
+    margin-left: 60px;
+}
+
+.income:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+
+.tabs {
+    margin-top: 20px;
+}
+
+
+
+.card-100 {
+    width: 190px;
+    height: 90px;
+    background: linear-gradient(white, white);
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+.row-100 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.mybal {
+    font-size: 14px;
+    margin-right: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+
+}
+
+
+.card-101 {
+    padding: 10px;
+    /* background: linear-gradient(white, white); */
+    background: white;
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
+
+
+.row-101 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-101 {
+    margin-top: 7px;
+    margin-left: 18px;
+}
+
+
+.paisa-101 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.lastt {
+    margin-top: 12px;
+    margin-left: 28px;
+    font-size: 25px;
+}
+
+.card-102 {
+    background: linear-gradient(white, rgb(255, 255, 255));
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    overflow-x: auto;
+
+}
+
+.row-102 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-102 {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.spotifyy {
+    font-weight: bold;
+    margin-top: 25px;
+
+}
+
+
+.pending {
+    margin-right: 25px;
+
+}
+
+.paisa-102 {
+    margin-right: 25px;
+    font-size: 18px;
+    color: red;
+
+}
+
+.moblieservice {
+    font-weight: bold;
+}
+
+.service {
+}
+
+.number-103 {
+}
+
+.Emilly {
+    font-weight: bold;
+}
+
+.transfer {
+}
+
+.number-104 {
+}
+
+.completed {
+    margin-right: 10px;
+}
+
+.paisa-104 {
+    font-size: 18px;
+    color: green;
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+.card-120 {
+    width: 100%;
+    background: linear-gradient(blue, blue);
+    border-radius: 30px;
+    margin-left: 15px;
+
+}
+
+/* .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+.title-my-card {
+    padding: 30px;
+
+}
+
+.balance-120 {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: white;
+
+
+}
+
+.rupya-120 {
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.chip-120 {
+    padding: 3px;
+}
+
+.row1-120 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.holder-120 {
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+}
+
+.eddy-120 {
+    font-size: 14px;
+    margin-left: 30px;
+    color: white;
+}
+
+.valid-120 {
+    margin-right: 90px;
+    margin-top: 30px;
+    color: white;
+}
+
+.no-120 {
+    color: white;
+}
+
+.row2-120 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: left;
+}
+
+.number-120 {
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #E5E5E5;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.box {
+    padding: 30px;
+    background: linear-gradient(white, white);
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+
+.row-200 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total-tittle {
+    font-size: 13px;
+
+}
+
+.paisa-200 {
+    font-weight: bold;
+}
+
+.box-1 {
+    padding: 30px;
+    background: linear-gradient(white, white);
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+
+.row-200-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.total-tittle-1 {
+    font-size: 13px;
+}
+
+.paisa-200-1 {
+    font-weight: bold;
+}
+
+
+.box-2 {
+    padding: 30px;
+    background: linear-gradient(white, white);
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+
+.row-200-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.total-tittle-2 {
+    font-size: 13px;
+    margin-right: 0px;
+}
+
+.paisa-200-2 {
+    font-weight: bold;
+}
+
+.Yearly {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.box1 {
+    padding: 120px;
+    background: linear-gradient(white, white);
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.MyInvestment {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+
+
+
+.applestore-1 {
+    padding: 25px;
+    background: white;
+    border-radius: 20px;
+    margin: 20px;
+    float: left;
+    overflow-x: auto;
+
+}
+
+
+
+.applestore-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.apple-tittle {
+    font-weight: bold;
+    margin-right: 120px;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.E-commerce {
+    font-size: 13px;
+    padding-left: 20px;
+}
+
+.apple-paisa {
+    font-weight: bold;
+    margin-right: 150px;
+    font-size: 15px;
+}
+
+.apple-value {
+    font-size: 13px;
+}
+
+.apple-percentage {
+    font-weight: bold;
+    margin-right: 70px;
+    font-size: 15px;
+    color: green
+}
+
+.apple-return {
+    font-size: 13px;
+
+
+}
+
+.xyzbox {
+    padding: 25px;
+    background: white;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.Samsung-moblie {
+    padding: 25px;
+    background: white;
+    border-radius: 20px;
+    margin: 20px;
+    float: left;
+    overflow-x: auto;
+
+}
+
+.samsung-percentage {
+    font-weight: bold;
+    margin-right: 70px;
+    font-size: 15px;
+    color: red;
+}
+
+
+.Treding-stock-1 {
+    background: white;
+    border-radius: 30px;
+    float: left;
+    margin-top: 20px;
+}
+
+.th {
+    color: blue;
+    padding: 20px 10px;
+
+}
+
+.td {
+    padding: 20px 20px;
+    font-weight: bold;
+}
+
+.td-color {
+    padding: 20px 10px;
+    font-weight: bold;
+    color: green;
+}
+
+.td-color-1 {
+    padding: 20px 10px;
+    font-weight: bold;
+    color: red;
+}
+
+.trending-tittle {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.creditcard {
+    width: 100%;
+    background: linear-gradient(#009FE3, #0088CC);
+    border-radius: 30px;
+}
+
+
+
+.credit-bal {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: white;
+
+
+}
+
+.credit-rupya {
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.credit-chip {
+    padding: 3px;
+}
+
+
+.credit-holder {
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+}
+
+.credit-eddy {
+    font-size: 14px;
+    margin-left: 30px;
+    color: white;
+}
+
+.credit-valid {
+    margin-right: 90px;
+    margin-top: 30px;
+    color: white;
+}
+
+.credit-no {
+    color: white;
+}
+
+
+.credit-number {
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #E5E5E5;
+    font-size: 20px;
+    border-bottom: 20px;
+}
+
+.mycard-tittle {
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+.creditcard-1 {
+    width: 100%;
+    background: linear-gradient(blue, blue);
+    border-radius: 30px;
+
+}
+
+
+
+.credit-bal-1 {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: white;
+
+
+}
+
+.credit-rupya-1 {
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.credit-chip-1 {
+    padding: 3px;
+}
+
+
+.credit-holder-1 {
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+}
+
+.credit-eddy-1 {
+    font-size: 14px;
+    margin-left: 30px;
+    color: white;
+}
+
+.credit-valid-1 {
+    margin-right: 90px;
+    margin-top: 30px;
+    color: white;
+}
+
+.credit-no-1 {
+    color: white;
+}
+
+
+.credit-number-1 {
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #E5E5E5;
+    font-size: 20px;
+    border-bottom: 20px;
+}
+
+
+
+
+.creditcard-3 {
+    width: 100%;
+    background: white;
+    border-radius: 30px;
+
+}
+
+
+
+.credit-bal-3 {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: black;
+
+
+}
+
+.credit-rupya-3 {
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.credit-chip-3 {
+    padding: 3px;
+}
+
+
+.credit-holder-3 {
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: black;
+}
+
+.credit-eddy-3 {
+    font-size: 14px;
+    margin-left: 30px;
+    color: black;
+}
+
+.credit-valid-3 {
+    margin-right: 90px;
+    margin-top: 30px;
+    color: black;
+}
+
+.credit-no-3 {
+    color: black;
+}
+
+
+.credit-number-3 {
+    margin-top: 30px;
+    margin-left: 30px;
+    color: black;
+    font-size: 20px;
+    border-bottom: 20px;
+}
+
+
+
+
+.card-expense {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.card-expense-box {
+    padding: 140px;
+    background: linear-gradient(blue, blue);
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+
+
+
+.card-list-box-1-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.card-list-box {
+    padding: 15px;
+    background: white;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.card-type {
+    font-weight: bold;
+}
+
+
+.card-type a {
+    text-decoration: none;
+}
+
+
+.add-new-card {
+    padding: 25px;
+    margin-left: 20px;
+}
+
+
+.add-new-card-box {
+    background: white;
+    border-radius: 30px;
+}
+
+
+.Card-Setting-tittle {
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-setting-box {
+    background: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+
+.img-block-card {
+    padding: 10px;
+}
+
+
+.block-tittle {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+
+
+.Descripition {
+    color: blue;
+    padding: 20px 15px;
+
+}
+
+.th-2 {
+    padding: 20px 10px;
+    font-weight: bold;
+}
+
+
+.th-4 {
+    padding: 20px 10px;
+    font-weight: bold;
+    color: green;
+}
+
+
+.th-3 {
+    padding: 20px 10px;
+    font-weight: bold;
+    color: red;
+}
+
+
+.table-box {
+    width: 100%;
+    background: #f5f8fa;
+    border-radius: 20px;
+    overflow: scroll;
+}
+
+.tabs {
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.personal-loan {
+    padding: 10px;
+    background: linear-gradient(white, white);
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+
+
+.personal-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.personal-img {
+    margin-top: 8px;
+    margin-left: 13px;
+}
+
+.personal-loan-tittle {
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+.personal-loan-paisa {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.active-loans-overview {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.active-loans-overview-box {
+    background: white;
+    margin-top: 20px;
+    border-radius: 30px;
+    overflow-x: auto;
+}
+
+.sl-no {
+    padding: 10px 20px;
+}
+
+.td-1 {
+    padding: 20px 20px;
+    font-size: 18px;
+}
+
+
+.td-2 {
+    padding: 20px 20px;
+    font-size: 18px;
+    color: red;
+}
+
+.life-insurance-box {
+    padding: 15px;
+    background: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+
+.life-insurance-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.life-insurance-img {
+    margin-left: 20px;
+}
+
+.life-insurance-tittle {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.shooping {
+    margin-right: 70px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.safety {
+    margin-right: 90px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.bank-service-list {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.bank-service-list-box {
+    background: white;
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 30px;
+}
+
+
+.bank-service-list-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.business-1 {
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.business-t {
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 30px;
+    margin-top: 18px;
+}
+
+
+.business-t-1 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 35px;
+    margin-top: 18px;
+}
+
+
+.business-box {
+    background: white;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.setting-box {
+    padding: 100px;
+    background: white;
+    border-radius: 30px;
+    margin-left: 30px;
+    padding: 30px;
+}
+
+.box-nav {
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.girl-img {
+    margin: 50px;
+}
+
+.label-1 {
+    margin-top: 100px;
+}
+
+.label-2 {
+    margin-top: 10px;
+}
+
+.save-btn {
+    border-radius: 10px;
+    margin-left: 730px;
+    margin-top: 20px;
+}
+
+.label-3 {
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+.label-4 {
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+/* Container alignment */
+.toggle-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: sans-serif;
+}
+
+/* Base button styles */
+.toggle-btn {
+    width: 60px;
+    height: 34px;
+    border-radius: 34px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease;
+    padding: 0;
+    outline: none;
+}
+
+/* Background state color changes */
+.toggle-btn.off {
+    background-color: #ccc;
+}
+
+.toggle-btn.on {
+    background-color: hsl(174, 65%, 57%);
+    /* Vibrant Green */
+}
+
+/* The Left/Right sliding knob */
+.toggle-slider {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    /* The magic transition property */
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Move the knob to the right when state is "on" */
+.toggle-btn.on .toggle-slider {
+    transform: translateX(26px);
+}
+
+/* Optional label text styling */
+.label-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.label-text.active-label {
+    color: black;
+}
+
+.notification {
+    padding: 10px;
+}
+
+.form {
+    padding: 90;
+    background: #f5f8fa;
+}
+
+.register {
+    padding: 10px;
+}
+
+.register-submit {
+    text-align: center;
+}
+
+.Login a {
+    text-decoration: none;
+}
+
+.pragrap {
+    padding: 30px;
+}
+
+.add-card-from {
+    margin-left: 80px;
+}
+
+.Add-card-button {
+    padding: 30px;
+}
+
+
+.input-reduis {
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.add-balance-type {
+    padding: 20px;
+}
+
+.table {
+    width: 100%;
+}
