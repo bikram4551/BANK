@@ -9,7 +9,7 @@ const Loans = () => {
                     <Col md={3}>
                         <div className='personal-loan'>
                             <div className='personal-row'>
-                                <div className='personal-img'>  <img src="personal.png" /> </div>
+                                <div className='personal-img'><img src="personal.png" /> </div>
                                 <div>
                                     <div className='personal-loan-tittle'>Personal Loans</div>
                                     <div className='personal-loan-paisa' >$55,000</div>
