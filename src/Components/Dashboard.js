@@ -108,7 +108,7 @@ const Dashboard = () => {
                             </div>
                             <div className='card-3'>
                                 <div className='row1-2'>
-                                    <div className='deposit-img'> <img src="deposit.png" /> </div>
+                                    <div className='deposit-img'> <img src="deposit.png" alt='deposit'/> </div>
                                     <div> <div className='deposit-tittle'>Deposit from my card</div>
                                         <div className='jan'>28 january 2021</div>
                                     </div>
