@@ -42,7 +42,7 @@ const Servies = () => {
                     <Col md={4}>
                         <div className='life-insurance-box'>
                             <div className='life-insurance-row'>
-                                <div className='life-insurance-img'> <img src='life-insurance.png' />   </div>
+                                <div className='life-insurance-img'> <img src='life-insurance.png' alt='' />   </div>
                                 <div>
                                     <div className='life-insurance-tittle'>Life insurance</div>
                                     <div className='unlimited'>Unlimited Protection</div>
@@ -54,7 +54,7 @@ const Servies = () => {
                     <Col md={4}>
                         <div className='life-insurance-box'>
                             <div className='life-insurance-row'>
-                                <div className='life-insurance-img'> <img src='shopping.png' />   </div>
+                                <div className='life-insurance-img'> <img src='shopping.png' alt='' />   </div>
                                 <div>
                                     <div className='shooping'>Shopping</div>
                                     <div className='unlimited'>Buy. Think.Grow</div>
@@ -66,7 +66,7 @@ const Servies = () => {
                     <Col md={4}>
                         <div className='life-insurance-box'>
                             <div className='life-insurance-row'>
-                                <div className='life-insurance-img'> <img src='safety.png' />   </div>
+                                <div className='life-insurance-img'> <img src='safety.png' alt='' />   </div>
                                 <div>
                                     <div className='safety'>Safety</div>
                                     <div className='unlimited'>What are you allies</div>
@@ -90,7 +90,7 @@ const Servies = () => {
                                             return (
                                                 <Row>
                                                     <Col md={2}>
-                                                        <div className='business-1'> <img src='business-1.png' /></div>
+                                                        <div className='business-1'> <img src='business-1.png' alt='' /></div>
                                                     </Col>
                                                     <Col md={2}>
                                                         <div className='business-t'>Business Loan</div>
@@ -126,7 +126,7 @@ const Servies = () => {
                                             return (
                                                 <Row>
                                                     <Col md={2}>
-                                                        <div className='business-1'> <img src='corporate.png' />
+                                                        <div className='business-1'> <img src='corporate.png' alt='' />
                                                         </div>
                                                     </Col>
                                                     <Col md={2}>
@@ -164,7 +164,7 @@ const Servies = () => {
                                             return (
                                                 <Row>
                                                     <Col md={2}>
-                                                        <div className='business-1'>  <img src='business.png' />
+                                                        <div className='business-1'>  <img src='business.png' alt='' />
                                                         </div>
                                                     </Col>
                                                     <Col md={2}>
@@ -201,7 +201,7 @@ const Servies = () => {
                                             return (
                                                 <Row>
                                                     <Col md={2}>
-                                                        <div className='business-1'>  <img src='personal.png' />
+                                                        <div className='business-1'>  <img src='personal.png' alt='' />
                                                         </div>
                                                     </Col>
                                                     <Col md={2}>
@@ -238,7 +238,7 @@ const Servies = () => {
                                             return (
                                                 <Row>
                                                     <Col md={2}>
-                                                        <div className='business-1'> <img src='safety.png' />
+                                                        <div className='business-1'> <img src='safety.png' alt='' />
                                                         </div>
                                                     </Col>
                                                     <Col md={2}>

@@ -255,7 +255,7 @@ const CreditCard = () => {
                                         <div className='card-list-box'>
                                             <Row key={index}>
                                                 <Col>
-                                                    <img src='safety.png' />
+                                                    <img src='safety.png' alt='' />
                                                 </Col>
                                                 <Col>
                                                     <div className='card-type'>Card Type</div>
@@ -289,7 +289,7 @@ const CreditCard = () => {
                                         <div className='card-list-box'>
                                             <Row key={index}>
                                                 <Col>
-                                                    <img src='safety.png' />
+                                                    <img src='safety.png' alt=''/>
                                                 </Col>
                                                 <Col>
                                                     <div className='card-type'>Card Type</div>
@@ -323,7 +323,7 @@ const CreditCard = () => {
                                         <div className='card-list-box'>
                                             <Row key={index}>
                                                 <Col>
-                                                    <img src='safety.png' />
+                                                    <img src='safety.png' alt=''/>
                                                 </Col>
                                                 <Col>
                                                     <div className='card-type'>Card Type</div>
@@ -457,7 +457,7 @@ const CreditCard = () => {
                                 <div className='card-setting-box'>
                                     <Row onClick={handleShow}>
                                         <Col md={3}>
-                                            <div className='img-block-card'> <img src='block-card.png' /> </div>
+                                            <div className='img-block-card'> <img src='block-card.png' alt='' /> </div>
                                         </Col>
                                         <Col>
                                             <div className='block-tittle'>Block</div>
@@ -466,7 +466,7 @@ const CreditCard = () => {
                                     </Row>
                                     <Row onClick={handleShow1}>
                                         <Col md={3}>
-                                            <div className='img-block-card'> <img src='change-pin.png' /> </div>
+                                            <div className='img-block-card'> <img src='change-pin.png' alt='' /> </div>
                                         </Col>
                                         <Col>
                                             <div className='block-tittle'>Change pin code</div>
@@ -475,7 +475,7 @@ const CreditCard = () => {
                                     </Row>
                                     <Row onClick={handleShow2}>
                                         <Col md={3}>
-                                            <div className='img-block-card'> <img src='add-to-googlepay.png' /> </div>
+                                            <div className='img-block-card'> <img src='add-to-googlepay.png' alt='' /> </div>
                                         </Col>
                                         <Col>
                                             <div className='block-tittle'>Add Google Pay</div>
@@ -484,7 +484,7 @@ const CreditCard = () => {
                                     </Row>
                                     <Row onClick={handleShow3}>
                                         <Col md={3}>
-                                            <div className='img-block-card'> <img src='apple pay.png' /> </div>
+                                            <div className='img-block-card'> <img src='apple pay.png' alt='' /> </div>
                                         </Col>
                                         <Col>
                                             <div className='block-tittle'>Add to Apple Pay</div>
@@ -493,7 +493,7 @@ const CreditCard = () => {
                                     </Row>
                                     <Row onClick={handleShow4}>
                                         <Col md={3}>
-                                            <div className='img-block-card'> <img src='apple store.png' /> </div>
+                                            <div className='img-block-card'> <img src='apple store.png' alt='' /> </div>
                                         </Col>
                                         <Col>
                                             <div className='block-tittle'>Add to Apple pay</div>

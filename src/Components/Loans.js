@@ -9,7 +9,7 @@ const Loans = () => {
                     <Col md={3}>
                         <div className='personal-loan'>
                             <div className='personal-row'>
-                                <div className='personal-img'><img src="personal.png" /> </div>
+                                <div className='personal-img'><img src="personal.png"  alt=''/> </div>
                                 <div>
                                     <div className='personal-loan-tittle'>Personal Loans</div>
                                     <div className='personal-loan-paisa' >$55,000</div>
@@ -20,7 +20,7 @@ const Loans = () => {
                     <Col md={3}>
                         <div className='personal-loan'>
                             <div className='personal-row'>
-                                <div className='personal-img'>  <img src="corporate.png" /> </div>
+                                <div className='personal-img'>  <img src="corporate.png" alt=''/> </div>
                                 <div> <div className='personal-loan-tittle'>Corcpate Loans</div>
                                     <div className='personal-loan-paisa' >$100,000</div>
                                 </div>
@@ -30,7 +30,7 @@ const Loans = () => {
                     <Col md={3}>
                         <div className='personal-loan'>
                             <div className='personal-row'>
-                                <div className='personal-img'>  <img src="business.png" /> </div>
+                                <div className='personal-img'>  <img src="business.png" alt=''/> </div>
                                 <div> <div className='personal-loan-tittle'>Business Loans</div>
                                     <div className='personal-loan-paisa' >$500,000</div>
                                 </div>
@@ -40,7 +40,7 @@ const Loans = () => {
                     <Col md={3}>
                         <div className='personal-loan'>
                             <div className='personal-row'>
-                                <div className='personal-img'>  <img src="custom.png" /> </div>
+                                <div className='personal-img'>  <img src="custom.png" alt='' /> </div>
                                 <div> <div className='personal-loan-tittle'>Personal Loans</div>
                                     <div className='personal-loan-paisa' >Choose Money</div>
                                 </div>

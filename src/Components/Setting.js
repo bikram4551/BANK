@@ -87,7 +87,7 @@ const Setting = () => {
                       <Row>
                         <Col md={3} >
                           <div className='girl-img'>
-                            <img src='girl.png' />
+                            <img src='girl.png'  alt=''/>
                           </div>
                         </Col>
                         <Col md={5}>
