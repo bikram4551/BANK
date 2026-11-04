@@ -187,7 +187,8 @@ const Loans = () => {
                                                     <td className='td-1'>{loan.duration}</td>
                                                     <td className='td-1'>{loan.interest}</td>
                                                     <td className='td-1'>{loan.Installment}</td>
-                                                    <td>  <Button variant="outline-primary">Repay</Button>
+                                                    <td>  
+                                                        <Button variant="outline-primary">Repay</Button>
                                                     </td>
                                                 </tr>
                                             )
@@ -205,7 +206,8 @@ const Loans = () => {
                                                     <td className='td-1'>{loan.duration}</td>
                                                     <td className='td-1'>{loan.interest}</td>
                                                     <td className='td-1'>{loan.Installment}</td>
-                                                    <td>  <Button variant="outline-primary">Repay</Button>
+                                                    <td> 
+                                                         <Button variant="outline-primary">Repay</Button>
                                                     </td>
                                                 </tr>
                                             )
@@ -223,7 +225,8 @@ const Loans = () => {
                                                     <td className='td-1'>{loan.duration}</td>
                                                     <td className='td-1'>{loan.interest}</td>
                                                     <td className='td-1'>{loan.Installment}</td>
-                                                    <td>  <Button variant="outline-primary">Repay</Button>
+                                                    <td> 
+                                                         <Button variant="outline-primary">Repay</Button>
                                                     </td>
                                                 </tr>
                                             )
@@ -241,7 +244,8 @@ const Loans = () => {
                                                     <td className='td-1'>{loan.duration}</td>
                                                     <td className='td-1'>{loan.interest}</td>
                                                     <td className='td-1'>{loan.Installment}</td>
-                                                    <td>  <Button variant="outline-primary">Repay</Button>
+                                                    <td> 
+                                                         <Button variant="outline-primary">Repay</Button>
                                                     </td>
                                                 </tr>
                                             )
@@ -259,7 +263,8 @@ const Loans = () => {
                                                     <td className='td-1'>{loan.duration}</td>
                                                     <td className='td-1'>{loan.interest}</td>
                                                     <td className='td-1'>{loan.Installment}</td>
-                                                    <td>  <Button variant="outline-primary">Repay</Button>
+                                                    <td> 
+                                                         <Button variant="outline-primary">Repay</Button>
                                                     </td>
                                                 </tr>
                                             )
@@ -277,7 +282,8 @@ const Loans = () => {
                                                     <td className='td-1'>{loan.duration}</td>
                                                     <td className='td-1'>{loan.interest}</td>
                                                     <td className='td-1'>{loan.Installment}</td>
-                                                    <td>  <Button variant="outline-primary">Repay</Button>
+                                                    <td> 
+                                                         <Button variant="outline-primary">Repay</Button>
                                                     </td>
                                                 </tr>
                                             )
@@ -295,7 +301,8 @@ const Loans = () => {
                                                     <td className='td-1'>{loan.duration}</td>
                                                     <td className='td-1'>{loan.interest}</td>
                                                     <td className='td-1'>{loan.Installment}</td>
-                                                    <td>  <Button variant="outline-primary">Repay</Button>
+                                                    <td>  
+                                                        <Button variant="outline-primary">Repay</Button>
                                                     </td>
                                                 </tr>
                                             )
