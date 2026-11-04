@@ -162,7 +162,7 @@ const Loans = () => {
                                     {
                                         Loans.map((loan, index) => {
                                             return (
-                                                <tr>
+                                                <tr key={index}>
                                                     <td className='td-1'>{loan.slNo}</td>
                                                     <td className='td-1'>{loan.loanMoney}</td>
                                                     <td className='td-1'>{loan.left}</td>
@@ -180,7 +180,7 @@ const Loans = () => {
                                     {
                                         Loans1.map((loan, index) => {
                                             return (
-                                                <tr>
+                                                <tr key={index}>
                                                     <td className='td-1'>{loan.slNo}</td>
                                                     <td className='td-1'>{loan.loanMoney}</td>
                                                     <td className='td-1'>{loan.left}</td>
@@ -198,7 +198,7 @@ const Loans = () => {
                                     {
                                         Loans2.map((loan, index) => {
                                             return (
-                                                <tr>
+                                                <tr key={index}>
                                                     <td className='td-1'>{loan.slNo}</td>
                                                     <td className='td-1'>{loan.loanMoney}</td>
                                                     <td className='td-1'>{loan.left}</td>
@@ -216,7 +216,7 @@ const Loans = () => {
                                     {
                                         Loans3.map((loan, index) => {
                                             return (
-                                                <tr>
+                                                <tr key={index}>
                                                     <td className='td-1'>{loan.slNo}</td>
                                                     <td className='td-1'>{loan.loanMoney}</td>
                                                     <td className='td-1'>{loan.left}</td>
@@ -234,7 +234,7 @@ const Loans = () => {
                                     {
                                         Loans4.map((loan, index) => {
                                             return (
-                                                <tr>
+                                                <tr key={index}>
                                                     <td className='td-1'>{loan.slNo}</td>
                                                     <td className='td-1'>{loan.loanMoney}</td>
                                                     <td className='td-1'>{loan.left}</td>
@@ -252,7 +252,7 @@ const Loans = () => {
                                     {
                                         Loans5.map((loan, index) => {
                                             return (
-                                                <tr>
+                                                <tr key={index}>
                                                     <td className='td-1'>{loan.slNo}</td>
                                                     <td className='td-1'>{loan.loanMoney}</td>
                                                     <td className='td-1'>{loan.left}</td>
@@ -270,7 +270,7 @@ const Loans = () => {
                                     {
                                         Loans6.map((loan, index) => {
                                             return (
-                                                <tr>
+                                                <tr key={index}>
                                                     <td className='td-1'>{loan.slNo}</td>
                                                     <td className='td-1'>{loan.loanMoney}</td>
                                                     <td className='td-1'>{loan.left}</td>
@@ -288,7 +288,7 @@ const Loans = () => {
                                     {
                                         Loans7.map((loan, index) => {
                                             return (
-                                                <tr>
+                                                <tr key={index}>
                                                     <td className='td-1'>{loan.slNo}</td>
                                                     <td className='td-1'>{loan.loanMoney}</td>
                                                     <td className='td-1'>{loan.left}</td>
@@ -306,7 +306,7 @@ const Loans = () => {
                                     {
                                         Total.map((loan, index) => {
                                             return (
-                                                <tr>
+                                                <tr key={index}>
                                                     <td className='td-2'>{loan.sl}</td>
                                                     <td className='td-2'>{loan.loan}</td>
                                                     <td className='td-2'>{loan.left}</td>
