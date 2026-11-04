@@ -17,7 +17,7 @@ const Accounts = () => (
                 <Col md={3}>
                     <div className='card-101'>
                         <div className='row-101'>
-                            <div className='img-101'>  <img src="paisa.png" /> </div>
+                            <div className='img-101'>  <img src="paisa.png" alt=''/> </div>
                             <div> <div className='income-101'>My Balance</div>
                                 <div className='paisa-101' >$12,750</div>
                             </div>
@@ -27,7 +27,7 @@ const Accounts = () => (
                 <Col md={3}>
                     <div className='card-101'>
                         <div className='row-101'>
-                            <div className='img-101'>  <img src="hand.png.png" /> </div>
+                            <div className='img-101'>  <img src="hand.png.png"  alt=''/>  </div>
 
                             <div> <div className='income-101'>Income</div>
                                 <div className='paisa-101' >$5,600</div>
@@ -40,7 +40,7 @@ const Accounts = () => (
                 <Col md={3}>
                     <div className='card-101'>
                         <div className='row-101'>
-                            <div className='img-101'>  <img src="expense.png" /> </div>
+                            <div className='img-101'>  <img src="expense.png" alt=''/> </div>
 
                             <div> <div className='income-101'>Expense</div>
                                 <div className='paisa-101' >3,460</div>
@@ -52,7 +52,7 @@ const Accounts = () => (
                 <Col md={3}>
                     <div className='card-101'>
                         <div className='row-101'>
-                            <div className='img-101'>  <img src="totalsaving.png" /> </div>
+                            <div className='img-101'>  <img src="totalsaving.png" alt=''/> </div>
 
                             <div> <div className='income-101'>total saving</div>
                                 <div className='paisa-101' >$7,920</div>
@@ -73,7 +73,7 @@ const Accounts = () => (
                         <Col>
                             <div className='card-102'>
                                 <div className='row-102'>
-                                    <div className='img-102'>  <img src="spotifyy.png" /> </div>
+                                    <div className='img-102'>  <img src="spotifyy.png" alt='' /> </div>
 
                                     <div> <div className='spotifyy'>Spotify Subscription </div>
                                         <div>25 Jun 2025 </div>
@@ -86,7 +86,7 @@ const Accounts = () => (
                                 </div>
 
                                 <div className='row-102'>
-                                    <div className='img-102'>  <img src="moblie.png" /> </div>
+                                    <div className='img-102'>  <img src="moblie.png" alt='' /> </div>
 
                                     <div> <div className='moblieservice'> Moblie Service </div>
                                         <div>25 Jun 2025 </div>
@@ -98,7 +98,7 @@ const Accounts = () => (
 
                                 </div>
                                 <div className='row-102'>
-                                    <div className='img-102'>  <img src="emilly.png" /> </div>
+                                    <div className='img-102'>  <img src="emilly.png" alt=''/> </div>
 
                                     <div> <div className='Emilly'>Emilly wilson </div>
                                         <div>25 Jun 2025 </div>

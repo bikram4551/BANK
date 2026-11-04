@@ -115,7 +115,7 @@ const Dashboard = () => {
                                     <div className='rupess'>-$850</div>
                                 </div>
                                 <div className='row3-3'>
-                                    <div className='jemi-img'> <img src="paypal.png" /> </div>
+                                    <div className='jemi-img'> <img src="paypal.png" alt=''/> </div>
                                     <div> <div className='paypal-tittle'>Deposit from my card</div>
                                         <div className='jan1'>25 january 2021</div>
                                     </div>
@@ -123,7 +123,7 @@ const Dashboard = () => {
                                 </div>
 
                                 <div className='row2-2'>
-                                    <div className='paypal-img'> <img src="jemi.png" /> </div>
+                                    <div className='paypal-img'> <img src="jemi.png" alt=''/> </div>
                                     <div> <div className='jemi-tittle'>Deposit from my card</div>
                                         <div className='jan1'>21 january 2021</div>
                                     </div>
