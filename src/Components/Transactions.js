@@ -1,5 +1,4 @@
-import React from 'react'
-import { Button, Col, Container, Row, Table, Tab, Tabs, Pagination } from 'react-bootstrap'
+import { Button, Col, Container, Row, Table, Tab, Tabs,  } from 'react-bootstrap'
 
 const Transactions = () => {
     const mycards = [

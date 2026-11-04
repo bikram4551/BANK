@@ -1,4 +1,3 @@
-import React from 'react'
 import { Col, Container, Row, Table } from 'react-bootstrap'
 
 const Investments = () => {

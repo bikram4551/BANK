@@ -1,8 +1,6 @@
-import React from 'react'
 import * as Yup from 'yup';
 import { Formik, Form, Field } from 'formik';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import { Link } from 'react-router';
 const Forget = () => {
   const SignupSchema = Yup.object().shape({
     email: Yup.string().email('Invalid email').required('Required'),
