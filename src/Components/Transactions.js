@@ -1,4 +1,4 @@
-import { Button, Col, Container, Row, Table, Tab, Tabs,  } from 'react-bootstrap'
+import { Button, Col, Container, Row, Table, Tab, Tabs, } from 'react-bootstrap'
 
 const Transactions = () => {
     const mycards = [
@@ -16,6 +16,60 @@ const Transactions = () => {
             "cardHolder": "Eddy Cusuma",
             "valid": "12/22",
             "number": "3778******123"
+        }
+    ]
+
+    const Spotifys = [
+        {
+            "descripition": "Spotiify Description",
+            "transaction": "# 12548796",
+            "type": "Shopping",
+            "card": "1234 **** ****",
+            "date": "28 jan , 12.30 AM",
+            "amount": "$-$2,500"
+        }
+    ]
+    const Freepiks = [
+        {
+            "descripition": "Freepik  Sale ",
+            "transaction": "# 12548796",
+            "type": "Transfer",
+            "card": "1234 **** ****",
+            "date": "25 jan , 10.30 PM",
+            "amount": "$-$750"
+
+        }
+    ]
+    const Moblies = [
+        {
+            "descripition": "Moblie Service",
+            "transaction": "# 12548796",
+            "type": "Service",
+            "card": "1234 **** ****",
+            "date": "15 jan , 03.30 AM",
+            "amount": "$-$750"
+
+        }
+    ]
+    const Wilsons = [
+        {
+            "descripition": "Wilson",
+            "transaction": "# 12548796",
+            "type": "Transer",
+            "card": "1234 **** ****",
+            "date": "28 jan , 10.30 AM",
+            "amount": "$-$750"
+
+        }
+    ]
+    const Emillys = [
+        {
+            "descripition": "Emilly",
+            "transaction": "# 12548796",
+            "type": "Transfer",
+            "card": "1234 **** ****",
+            "date": "28 jan , 08.30 AM",
+            "amount": "$-$750"
         }
     ]
     return (
@@ -97,82 +151,129 @@ const Transactions = () => {
                     <Col md={12}>
                         <div className='tabs'>
                             <Tabs
-                            defaultActiveKey="profile"
-                            id="uncontrolled-tab-example"
-                            className="mb-3"
-                        >
-                            <Tab eventKey="home" title="Home">
-                                <div className='table-box'>
-                                    <Table>
-                                        <tr>
-                                            <th className='Descripition'>Descripition</th>
-                                            <th className='Descripition'>Transaction Id</th>
-                                            <th className='Descripition'>Type</th>
-                                            <th className='Descripition'>Card</th>
-                                            <th className='Descripition'>Date</th>
-                                            <th className='Descripition'>Amount</th>
-                                            <th className='Descripition'>Receipt</th>
-                                        </tr>
-                                        <tr>
-                                            <td className='th-2'> <img src='top-arrow.png' />Spotify Desscripition</td>
-                                            <td className='th-2'>#12548796</td>
-                                            <td className='th-2'>Shopping</td>
-                                            <td className='th-2'>1234 ****</td>
-                                            <td className='th-2'>28 jan, 12.30 AM</td>
-                                            <td className='th-3'>-$2,500</td>
-                                            <td>  <Button variant="outline-primary">Download</Button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td className='th-2'> <img src='down-arrow.png' />Freepik Sale</td>
-                                            <td className='th-2'>#12548796</td>
-                                            <td className='th-2'>Transfer</td>
-                                            <td className='th-2'>1234 ****</td>
-                                            <td className='th-2'>25 jan, 10.40 PM</td>
-                                            <td className='th-4'>+$750</td>
-                                            <td>  <Button variant="outline-primary">Download</Button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td className='th-2'> <img src='top-arrow.png' />Moblie Service</td>
-                                            <td className='th-2'>#12548796</td>
-                                            <td className='th-2'>Service</td>
-                                            <td className='th-2'>1234 ****</td>
-                                            <td className='th-2'>20 jan, 10.40 PM</td>
-                                            <td className='th-3'>-$150</td>
-                                            <td>  <Button variant="outline-primary">Download</Button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td className='th-2'> <img src='top-arrow.png' />Wilson</td>
-                                            <td className='th-2'>#12548796</td>
-                                            <td className='th-2'>Transfer</td>
-                                            <td className='th-2'>1234 ****</td>
-                                            <td className='th-2'>15 jan, 03.29 PM</td>
-                                            <td className='th-3'>-$2,500</td>
-                                            <td>  <Button variant="outline-primary">Download</Button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td className='th-2'> <img src='down-arrow.png' />Emilly</td>
-                                            <td className='th-2'>#12548796</td>
-                                            <td className='th-2'>Transfer</td>
-                                            <td className='th-2'>1234 ****</td>
-                                            <td className='th-2'>14 Jan , 10. 40 PM</td>
-                                            <td className='th-4'>+$2,500</td>
-                                            <td>  <Button variant="outline-primary">Download</Button>
-                                            </td>
-                                        </tr>
-                                    </Table>
-                                </div>
-                            </Tab>
-                            <Tab eventKey="profile" title="Profile">
-                                Tab content for Profile
-                            </Tab>
-                            <Tab eventKey="contact" title="Contact" disabled>
-                                Tab content for Contact
-                            </Tab>
-                        </Tabs>
+                                defaultActiveKey="profile"
+                                id="uncontrolled-tab-example"
+                                className="mb-3"
+                            >
+                                <Tab eventKey="home" title="Home">
+                                    <div className='table-box'>
+                                        <Table>
+                                            <thead>
+                                                <tr>
+                                                    <th className='Descripition'>Descripition</th>
+                                                    <th className='Descripition'>Transaction Id</th>
+                                                    <th className='Descripition'>Type</th>
+                                                    <th className='Descripition'>Card</th>
+                                                    <th className='Descripition'>Date</th>
+                                                    <th className='Descripition'>Amount</th>
+                                                    <th className='Descripition'>Receipt</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                {
+                                                    Spotifys.map((Spotify, index) => {
+                                                        return (
+                                                            <tr key={index}>
+                                                                <td className='th-2'> <img src='top-arrow.png' alt='' /> {Spotify.descripition}</td>
+                                                                <td className='th-2'>{Spotify.transaction}</td>
+                                                                <td className='th-2'>{Spotify.type}</td>
+                                                                <td className='th-2'>{Spotify.card}</td>
+                                                                <td className='th-2'>{Spotify.date}</td>
+                                                                <td className='th-3'>{Spotify.amount}</td>
+                                                                <td>  <Button variant="outline-primary">Download</Button>
+                                                                </td>
+                                                            </tr>
+                                                        )
+                                                    })
+                                                }
+
+                                            </tbody>
+                                            <tbody>
+                                                {
+                                                    Freepiks.map((freepik, index) => {
+                                                        return (
+                                                            <tr key={index}>
+                                                                <td className='th-2'> <img src='down-arrow.png' alt='' /> {freepik.descripition}</td>
+                                                                <td className='th-2'>{freepik.transaction}</td>
+                                                                <td className='th-2'>{freepik.type}</td>
+                                                                <td className='th-2'>{freepik.card}</td>
+                                                                <td className='th-2'>{freepik.date}</td>
+                                                                <td className='th-4'>{freepik.amount}</td>
+                                                                <td>
+                                                                    <Button variant="outline-primary">Download</Button>
+                                                                </td>
+                                                            </tr>
+                                                        )
+                                                    })
+                                                }
+                                            </tbody>
+                                            <tbody>
+                                                {
+                                                    Moblies.map((moblie, index) => {
+                                                        return (
+                                                            <tr key={index}>
+                                                                <td className='th-2'> <img src='top-arrow.png' alt='' /> {moblie.descripition}</td>
+                                                                <td className='th-2'>{moblie.transaction}</td>
+                                                                <td className='th-2'>{moblie.type}</td>
+                                                                <td className='th-2'>{moblie.card}</td>
+                                                                <td className='th-2'>{moblie.date}</td>
+                                                                <td className='th-3'>{moblie.amount}</td>
+                                                                <td>
+                                                                    <Button variant="outline-primary">Download</Button>
+                                                                </td>
+                                                            </tr>
+                                                        )
+                                                    }
+                                                    )
+                                                }
+                                            </tbody>
+                                            <tbody>
+                                                {
+                                                    Wilsons.map((wilson, index) => {
+                                                        return (
+                                                            <tr key={index}>
+                                                                <td className='th-2'> <img src='top-arrow.png' alt='' /> {wilson.descripition}</td>
+                                                                <td className='th-2'>{wilson.transaction}</td>
+                                                                <td className='th-2'>{wilson.type}</td>
+                                                                <td className='th-2'>{wilson.card}</td>
+                                                                <td className='th-2'>{wilson.date}</td>
+                                                                <td className='th-3'>{wilson.amount}</td>
+                                                                <td>  <Button variant="outline-primary">Download</Button>
+                                                                </td>
+                                                            </tr>
+                                                        )
+                                                    })
+                                                }
+                                            </tbody>
+                                            <tbody>
+                                                {
+                                                    Emillys.map((emilly, index) => {
+                                                        return (
+                                                            <tr key={index}>
+                                                                <td className='th-2'> <img src='down-arrow.png' alt='' /> {emilly.descripition}</td>
+                                                                <td className='th-2'>{emilly.transaction}</td>
+                                                                <td className='th-2'>{emilly.card}</td>
+                                                                <td className='th-2'>{emilly.type}</td>
+                                                                <td className='th-2'>{emilly.date}</td>
+                                                                <td className='th-4' >{emilly.amount}</td>
+                                                                <td>  <Button variant="outline-primary">Download</Button>
+                                                                </td>
+                                                            </tr>
+                                                        )
+                                                    })
+                                                }
+                                            </tbody>
+
+                                        </Table>
+                                    </div>
+                                </Tab>
+                                <Tab eventKey="profile" title="Profile">
+                                    Tab content for Profile
+                                </Tab>
+                                <Tab eventKey="contact" title="Contact" disabled>
+                                    Tab content for Contact
+                                </Tab>
+                            </Tabs>
                         </div>
                     </Col>
                 </Row>

@@ -1,37 +1,37 @@
 import { Container, Row, Col, Button } from 'react-bootstrap'
 
 const Servies = () => {
-    const list_bank = [
+    const listBank = [
         {
-            "Business_Loan": "It is a long established",
-            "Lorem_Ipsum": "Many publishing",
+            "businessLoan": "It is a long established",
+            "loremIpsum": "Many publishing",
         },
     ]
 
-    const list_bank1 = [
+    const listBank1 = [
         {
-            "Checking_accounts": "It is a long established",
-            "Lorem_Ipsum": "Many publishing",
+            "checkingAccounts": "It is a long established",
+            "loremIpsum": "Many publishing",
         },
     ]
 
-    const list_bank2 = [
+    const listBank2 = [
         {
-            "saving_accounts": "It is a long established",
-            "Lorem_Ipsum": "Many publishing",
+            "savingAccounts": "It is a long established",
+            "loremIpsum": "Many publishing",
         },
     ]
 
-    const list_bank3 = [
+    const listBank3 = [
         {
-            "Debit_and_Credit_Card": "It is a long established",
-            "Lorem_Ipsum": "Many publishing",
+            "debitandcredit": "It is a long established",
+            "loremIpsum": "Many publishing",
         },
     ]
-    const list_bank4 = [
+    const listBank4 = [
         {
-            "Life_Insurance": "It is a long established",
-            "Lorem_Ipsum": "Many publishing",
+            "lifeInsurance": "It is a long established",
+            "loremIpsum": "Many publishing",
         },
     ]
     return (
@@ -85,25 +85,25 @@ const Servies = () => {
                             <Col>
                                 <div className='business-box'>
                                     {
-                                        list_bank.map((list, index) => {
+                                        listBank.map((list, index) => {
                                             return (
-                                                <Row>
+                                                <Row key={index}>
                                                     <Col md={2}>
                                                         <div className='business-1'> <img src='business-1.png' alt='' /></div>
                                                     </Col>
                                                     <Col md={2}>
                                                         <div className='business-t'>Business Loan</div>
-                                                        <div>{list.Business_Loan}</div>
+                                                        <div>{list.businessLoan}</div>
                                                     </Col>
                                                     <Col md={2}>
                                                         <div className='business-t'>Lorem Ipsum</div>
-                                                        <div>{list.Lorem_Ipsum}</div></Col>
+                                                        <div>{list.loremIpsum}</div></Col>
                                                     <Col md={2}>
                                                         <div className='business-t'>Lorem Ipsum</div>
-                                                        <div>{list.Lorem_Ipsum}</div></Col>
+                                                        <div>{list.loremIpsum}</div></Col>
                                                     <Col md={2} >
                                                         <div className='business-t'>Lorem Ipsum</div>
-                                                        <div>{list.Lorem_Ipsum}</div>
+                                                        <div>{list.loremIpsum}</div>
                                                     </Col>
                                                     <Col md={2}>
                                                         <div className='business-t'>  <Button variant="outline-primary">View Details</Button>
@@ -121,7 +121,7 @@ const Servies = () => {
                             <Col>
                                 <div className='business-box'>
                                     {
-                                        list_bank1.map((list, index) => {
+                                        listBank1.map((list, index) => {
                                             return (
                                                 <Row>
                                                     <Col md={2}>
@@ -130,21 +130,22 @@ const Servies = () => {
                                                     </Col>
                                                     <Col md={2}>
                                                         <div className='business-t-1'>Checking accounts</div>
-                                                        <div> {list.Checking_accounts} </div>
+                                                        <div> {list.checkingAccounts} </div>
                                                     </Col>
                                                     <Col md={2}>
                                                         <div className='business-t'>Lorem Ipsum</div>
-                                                        <div>{list.Lorem_Ipsum}</div></Col>
+                                                        <div>{list.loremIpsum}</div></Col>
                                                     <Col md={2}>
                                                         <div className='business-t'>Lorem Ipsum</div>
-                                                        <div>{list.Lorem_Ipsum}</div>
-                                                    </Col>
+                                                        <div>{list.loremIpsum}</div>                                                  
+                                                          </Col>
                                                     <Col md={2} >
                                                         <div className='business-t'>Lorem Ipsum</div>
-                                                        <div>{list.Lorem_Ipsum}</div>
-                                                    </Col>
+                                                        <div>{list.loremIpsum}</div>                                                  
+                                                          </Col>
                                                     <Col md={2}>
-                                                        <div className='business-t'>  <Button variant="outline-primary">View Details</Button>
+                                                        <div className='business-t'>
+                                                              <Button variant="outline-primary">View Details</Button>
                                                         </div>
                                                     </Col>
                                                 </Row>
@@ -159,7 +160,7 @@ const Servies = () => {
                             <Col>
                                 <div className='business-box'>
                                     {
-                                        list_bank2.map((list, index) => {
+                                        listBank2.map((list, index) => {
                                             return (
                                                 <Row>
                                                     <Col md={2}>
@@ -167,19 +168,18 @@ const Servies = () => {
                                                         </div>
                                                     </Col>
                                                     <Col md={2}>
-                                                        <div className='business-t-1'>saving accounts</div>
-                                                        <div>{list.saving_accounts} </div>
+                                                        <div className='business-t-1'>Saving accounts</div>
+                                                        <div>{list.savingAccounts} </div>
                                                     </Col>
                                                     <Col md={2}>
                                                         <div className='business-t'>Lorem Ipsum</div>
-                                                        <div>{list.Lorem_Ipsum}</div></Col>
+                                                        <div>{list.loremIpsum}</div></Col>
                                                     <Col md={2}>
                                                         <div className='business-t'>Lorem Ipsum</div>
-                                                        <div>{list.Lorem_Ipsum}</div></Col>
+                                                        <div>{list.loremIpsum}</div></Col>
                                                     <Col md={2} >
                                                         <div className='business-t'>Lorem Ipsum</div>
-                                                        <div>{list.Lorem_Ipsum}</div>
-                                                    </Col>
+                                                        <div>{list.loremIpsum}</div></Col>
                                                     <Col md={2}>
                                                         <div className='business-t'>  <Button variant="outline-primary">View Details</Button>
                                                         </div>
@@ -196,7 +196,7 @@ const Servies = () => {
                             <Col>
                                 <div className='business-box'>
                                     {
-                                        list_bank3.map((list, index) => {
+                                        listBank3.map((list, index) => {
                                             return (
                                                 <Row>
                                                     <Col md={2}>
@@ -205,18 +205,17 @@ const Servies = () => {
                                                     </Col>
                                                     <Col md={2}>
                                                         <div className='business-t-1'>Debit and Credit Card</div>
-                                                        <div> {list.Debit_and_Credit_Card} </div>
+                                                        <div> {list.debitandcredit} </div>
                                                     </Col>
                                                     <Col md={2}>
                                                         <div className='business-t'>Lorem Ipsum</div>
-                                                        <div>{list.Lorem_Ipsum}</div></Col>
+                                                        <div>{list.loremIpsum}</div></Col>
                                                     <Col md={2}>
                                                         <div className='business-t'>Lorem Ipsum</div>
-                                                        <div>{list.Lorem_Ipsum}</div></Col>
+                                                        <div>{list.loremIpsum}</div></Col>
                                                     <Col md={2} >
                                                         <div className='business-t'>Lorem Ipsum</div>
-                                                        <div>{list.Lorem_Ipsum}</div>
-                                                    </Col>
+                                                        <div>{list.loremIpsum}</div></Col>
                                                     <Col md={2}>
                                                         <div className='business-t'>  <Button variant="outline-primary">View Details</Button>
                                                         </div>
@@ -233,7 +232,7 @@ const Servies = () => {
                             <Col>
                                 <div className='business-box'>
                                     {
-                                        list_bank4.map((list, index) => {
+                                        listBank4.map((list, index) => {
                                             return (
                                                 <Row>
                                                     <Col md={2}>
@@ -242,18 +241,17 @@ const Servies = () => {
                                                     </Col>
                                                     <Col md={2}>
                                                         <div className='business-t-1'>Life Insurance</div>
-                                                        <div> {list.Life_Insurance} </div>
+                                                        <div> {list.lifeInsurance} </div>
                                                     </Col>
                                                     <Col md={2}>
                                                         <div className='business-t'>Lorem Ipsum</div>
-                                                        <div>{list.Lorem_Ipsum}</div></Col>
+                                                        <div>{list.loremIpsum}</div></Col>
                                                     <Col md={2}>
                                                         <div className='business-t'>Lorem Ipsum</div>
-                                                        <div>{list.Lorem_Ipsum}</div></Col>
+                                                        <div>{list.loremIpsum}</div></Col>
                                                     <Col md={2} >
                                                         <div className='business-t'>Lorem Ipsum</div>
-                                                        <div>{list.Lorem_Ipsum}</div>
-                                                    </Col>
+                                                        <div>{list.loremIpsum}</div></Col>
                                                     <Col md={2}>
                                                         <div className='business-t'>  <Button variant="outline-primary">View Details</Button>
                                                         </div>

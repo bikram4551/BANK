@@ -129,7 +129,7 @@ const Accounts = () => (
                                     {
                                         mycards.map((card, index) => {
                                             return (
-                                                <div className='card-120'>
+                                                <div className='card-120' key={index}>
                                                     <div className='row-120'>
                                                         <div><div className='balance-120'>Balance</div>
                                                             <div className='rupya-120' >{card.balance}</div></div>

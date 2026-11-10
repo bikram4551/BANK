@@ -8,7 +8,7 @@ const Loans = () => {
             "left": "$40,500",
             "duration": "8 months",
             "interest": "12%",
-            "Installment": "$2,000 / month"
+            "installment": "$2,000 / month"
         }
     ]
     const Loans1 = [
@@ -18,7 +18,7 @@ const Loans = () => {
             "left": "$25,000",
             "duration": "36 months",
             "interest": "10%",
-            "Installment": "$8,000 / month"
+            "installment": "$8,000 / month"
         }
     ]
     const Loans2 = [
@@ -28,7 +28,7 @@ const Loans = () => {
             "left": "$40,500",
             "duration": "12 months",
             "interest": "12%",
-            "Installment": "$8,000 / month"
+            "installment": "$8,000 / month"
         }
     ]
     const Loans3 = [
@@ -38,7 +38,7 @@ const Loans = () => {
             "left": "$40,500",
             "duration": "25 months",
             "interest": "5%",
-            "Installment": "$2,000 / month"
+            "installment": "$2,000 / month"
         }
     ]
 
@@ -49,7 +49,7 @@ const Loans = () => {
             "left": "$40,500",
             "duration": "5 months",
             "interest": "16%",
-            "Installment": "$10,000 / month"
+            "installment": "$10,000 / month"
         }
     ]
 
@@ -60,7 +60,7 @@ const Loans = () => {
             "left": "$25,500",
             "duration": "12 months",
             "interest": "15%",
-            "Installment": "$10,000 / month"
+            "installment": "$10,000 / month"
         }
     ]
     const Loans6 = [
@@ -70,7 +70,7 @@ const Loans = () => {
             "left": "$35,500",
             "duration": "23 months",
             "interest": "19%",
-            "Installment": "$16,000 / month"
+            "installment": "$16,000 / month"
         }
     ]
     const Loans7 = [
@@ -80,7 +80,7 @@ const Loans = () => {
             "left": "$35,500",
             "duration": "23 months",
             "interest": "19%",
-            "Installment": "$16,000 / month"
+            "installment": "$16,000 / month"
         }
     ]
     const Total = [
@@ -88,7 +88,7 @@ const Loans = () => {
             "sl": "Total",
             "loan": "$100,000",
             "left": "$40,500",
-            "Installment": "$2,000 / month"
+            "installment": "$2,000 / month"
 
         }
     ]
@@ -168,7 +168,7 @@ const Loans = () => {
                                                     <td className='td-1'>{loan.left}</td>
                                                     <td className='td-1'>{loan.duration}</td>
                                                     <td className='td-1'>{loan.interest}</td>
-                                                    <td className='td-1'>{loan.Installment}</td>
+                                                    <td className='td-1'>{loan.installment}</td>
                                                     <td>  <Button variant="outline-primary">Repay</Button>
                                                     </td>
                                                 </tr>
@@ -186,7 +186,7 @@ const Loans = () => {
                                                     <td className='td-1'>{loan.left}</td>
                                                     <td className='td-1'>{loan.duration}</td>
                                                     <td className='td-1'>{loan.interest}</td>
-                                                    <td className='td-1'>{loan.Installment}</td>
+                                                    <td className='td-1'>{loan.installment}</td>
                                                     <td>  
                                                         <Button variant="outline-primary">Repay</Button>
                                                     </td>
@@ -205,7 +205,7 @@ const Loans = () => {
                                                     <td className='td-1'>{loan.left}</td>
                                                     <td className='td-1'>{loan.duration}</td>
                                                     <td className='td-1'>{loan.interest}</td>
-                                                    <td className='td-1'>{loan.Installment}</td>
+                                                    <td className='td-1'>{loan.installment}</td>
                                                     <td> 
                                                          <Button variant="outline-primary">Repay</Button>
                                                     </td>
@@ -224,7 +224,7 @@ const Loans = () => {
                                                     <td className='td-1'>{loan.left}</td>
                                                     <td className='td-1'>{loan.duration}</td>
                                                     <td className='td-1'>{loan.interest}</td>
-                                                    <td className='td-1'>{loan.Installment}</td>
+                                                    <td className='td-1'>{loan.installment}</td>
                                                     <td> 
                                                          <Button variant="outline-primary">Repay</Button>
                                                     </td>
@@ -243,7 +243,7 @@ const Loans = () => {
                                                     <td className='td-1'>{loan.left}</td>
                                                     <td className='td-1'>{loan.duration}</td>
                                                     <td className='td-1'>{loan.interest}</td>
-                                                    <td className='td-1'>{loan.Installment}</td>
+                                                    <td className='td-1'>{loan.installment}</td>
                                                     <td> 
                                                          <Button variant="outline-primary">Repay</Button>
                                                     </td>
@@ -252,7 +252,7 @@ const Loans = () => {
                                         })
                                     }
                                 </tbody>
-                                <tbody>k
+                                <tbody>
                                     {
                                         Loans5.map((loan, index) => {
                                             return (
@@ -262,7 +262,7 @@ const Loans = () => {
                                                     <td className='td-1'>{loan.left}</td>
                                                     <td className='td-1'>{loan.duration}</td>
                                                     <td className='td-1'>{loan.interest}</td>
-                                                    <td className='td-1'>{loan.Installment}</td>
+                                                    <td className='td-1'>{loan.installment}</td>
                                                     <td> 
                                                          <Button variant="outline-primary">Repay</Button>
                                                     </td>
@@ -281,7 +281,7 @@ const Loans = () => {
                                                     <td className='td-1'>{loan.left}</td>
                                                     <td className='td-1'>{loan.duration}</td>
                                                     <td className='td-1'>{loan.interest}</td>
-                                                    <td className='td-1'>{loan.Installment}</td>
+                                                    <td className='td-1'>{loan.installment}</td>
                                                     <td> 
                                                          <Button variant="outline-primary">Repay</Button>
                                                     </td>
@@ -300,7 +300,7 @@ const Loans = () => {
                                                     <td className='td-1'>{loan.left}</td>
                                                     <td className='td-1'>{loan.duration}</td>
                                                     <td className='td-1'>{loan.interest}</td>
-                                                    <td className='td-1'>{loan.Installment}</td>
+                                                    <td className='td-1'>{loan.installment}</td>
                                                     <td>  
                                                         <Button variant="outline-primary">Repay</Button>
                                                     </td>
@@ -319,7 +319,7 @@ const Loans = () => {
                                                     <td className='td-2'>{loan.left}</td>
                                                     <td className='td-1'></td>
                                                     <td className='td-1'></td>
-                                                    <td className='td-2'>{loan.Installment}</td>
+                                                    <td className='td-2'>{loan.installment}</td>
                                                     <td>
                                                     </td>
                                                 </tr>
