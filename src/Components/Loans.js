@@ -252,7 +252,7 @@ const Loans = () => {
                                         })
                                     }
                                 </tbody>
-                                <tbody>
+                                <tbody>k
                                     {
                                         Loans5.map((loan, index) => {
                                             return (
