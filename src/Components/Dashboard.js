@@ -23,7 +23,6 @@ const Dashboard = () => {
         }
     ]
 
-///
     return (
         <div className='Dashboardarea'>
             <Container>
@@ -42,7 +41,8 @@ const Dashboard = () => {
                                             return (
                                                 <div className='card-1'>
                                                     <div className='row'>
-                                                        <div><div className="bal">Balance</div>
+                                                        <div>
+                                                            <div className="bal">Balance</div>
                                                             <div className='rupya' >{card.balance}</div></div>
                                                         <div className='chip'>
                                                         </div>
