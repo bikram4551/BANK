@@ -28,7 +28,7 @@ function App() {
         <Row className='toparea'>
           <Col md={2}>
             <div className='toparea-row '>
-              <img src='topimg.png' />
+              <img src='topimg.png' alt='' />
               <h3>BankDash.</h3>
             </div>
           </Col>
@@ -54,7 +54,7 @@ function App() {
                   <li><img src='top-setting.png' alt='' /></li>
                 </Link>
                 <li><img src='notifaction.png' alt='' /></li>
-                <li><img src='girl-logo.png' /></li>
+                <li><img src='girl-logo.png' alt='' /></li>
                 <li>
                   <Button onClick={toggleTheme} className="theme-toggle-btn">
                     {theme === "light" ? "🌙 Dark Mode" : "☀️ Light Mode"}
