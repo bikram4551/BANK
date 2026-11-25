@@ -201,7 +201,7 @@ const CreditCard = () => {
                                     {
                                         mycards2.map((mycard, index) => {
                                             return (
-                                                <div className='card-2'>
+                                                <div className='card-2' key={index}>
                                                     <div className='row'>
                                                         <div>
                                                             <div className="bal-1">Balance</div>
