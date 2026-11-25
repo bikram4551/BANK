@@ -92,6 +92,7 @@ const Loans = () => {
 
         }
     ]
+    ///
     return (
         <div className='Dashboardarea'>
             <Container>
