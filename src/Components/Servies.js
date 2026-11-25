@@ -49,7 +49,6 @@ const Servies = () => {
                             </div>
                         </div>
                     </Col>
-
                     <Col md={4}>
                         <div className='life-insurance-box'>
                             <div className='life-insurance-row'>
@@ -123,7 +122,7 @@ const Servies = () => {
                                     {
                                         listBank1.map((list, index) => {
                                             return (
-                                                <Row>
+                                                <Row key={index}>
                                                     <Col md={2}>
                                                         <div className='business-1'> <img src='corporate.png' alt='' />
                                                         </div>
@@ -162,7 +161,7 @@ const Servies = () => {
                                     {
                                         listBank2.map((list, index) => {
                                             return (
-                                                <Row>
+                                                <Row key={index}>
                                                     <Col md={2}>
                                                         <div className='business-1'>  <img src='business.png' alt='' />
                                                         </div>
@@ -198,7 +197,7 @@ const Servies = () => {
                                     {
                                         listBank3.map((list, index) => {
                                             return (
-                                                <Row>
+                                                <Row key={index}>
                                                     <Col md={2}>
                                                         <div className='business-1'>  <img src='personal.png' alt='' />
                                                         </div>
@@ -234,7 +233,7 @@ const Servies = () => {
                                     {
                                         listBank4.map((list, index) => {
                                             return (
-                                                <Row>
+                                                <Row key={index}>
                                                     <Col md={2}>
                                                         <div className='business-1'> <img src='safety.png' alt='' />
                                                         </div>
