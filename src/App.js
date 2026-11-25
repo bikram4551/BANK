@@ -86,12 +86,12 @@ function App() {
                     <Nav.Link as={Link} to={'/Forget'}>Forget</Nav.Link>
                     <Nav.Link as={Link} to={'/AddBalance'}>Add Balance</Nav.Link>
                     <Nav.Link as={Link} to={'/Withdraw'}>Withdraw</Nav.Link>
-                    <Nav.Link href="#link">Link</Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </Container>
             </Navbar>
           </Col>
+          
           <Col md={9}>
             <Routes>
               <Route path='/Dashboard' element={<Dashboard />} />
